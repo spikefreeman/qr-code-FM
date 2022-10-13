@@ -1,4 +1,14 @@
-body {
-    background-color: hsl(212, 45%, 89%);
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 }
 
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    color: hsl(218, 44%, 22%);
+}
